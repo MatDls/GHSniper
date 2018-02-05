@@ -38,3 +38,13 @@ https://www.youtube.com/watch?v=Q-BpqyOT3a8
 This above is an exa
 
 https://api.github.com/repos/MatDls/GHSniper/pulls{/number}
+
+To do:
+  1. Learn how to get GH token and use it to authenticate
+  https://www.youtube.com/watch?v=x2fd8HHk5xM
+
+  2. Learn how to send HTTP request to GH
+  https://stackoverflow.com/questions/1359689/how-to-send-http-request-in-java
+  https://stackoverflow.com/questions/2793150/using-java-net-urlconnection-to-fire-and-handle-http-requests
+
+  3. Run first responce and print it damn!
