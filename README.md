@@ -1,11 +1,16 @@
-# GHSniper
-This program will follow Git Hub repositories and create graph
+# training-support
 
-Wymagania:
-- serwis do rejestrowania/ modyfikowania / usuwania / zwracania uczestnikow zarejestrowanych w systemie.
+  Application:GHSniper
+  Author: Mateusz Dzielinski
+
+  This program will follow Git Hub repositories and create graphicall summary of
+  their status.
+
+  Wymagania:
+  - serwis do rejestrowania/ modyfikowania / usuwania / zwracania uczestnikow zarejestrowanych w systemie.
   jako minimum chcemy rejestrowac id, Imie, Nazwisko oraz nazwe repozytorium na Github
 
-- serwis do rejestrowania / modyfikowania / usuwania / zwracania zadan. 
+  - serwis do rejestrowania / modyfikowania / usuwania / zwracania zadan.
   Kazde zadanie powinno miec id oraz wymagana nazwe brancha na github
 
 - serwis ktory przyjmuje jako input liste uczestnikow i liste zadan dla ktorych ma sprawdzic status na github. 
@@ -21,30 +26,8 @@ Wymagania:
   Nie ma potrzeby tworzenia ekranow do dodawania zadan / uczestnikow. 
   Choc warto to zrobic gdy juz pozostale zadania beda gotowe.
 
-STARTED ON 4.02
 
-https://developer.github.com/v3/guides/getting-started/
-https://curl.haxx.se/download.html
-
-Important: The default version of the API may change in the future.
-If you're building an application and care about the stability of the API,
-be sure to request a specific version in the Accept header as shown in the examples below.
-
-**************************************
-#   application/vnd.github.v3+json   #
-**************************************
-
-https://www.youtube.com/watch?v=Q-BpqyOT3a8
-This above is an exa
-
-https://api.github.com/repos/MatDls/GHSniper/pulls{/number}
-
-To do:
-  1. Learn how to get GH token and use it to authenticate
-  https://www.youtube.com/watch?v=x2fd8HHk5xM
-
-  2. Learn how to send HTTP request to GH
-  https://stackoverflow.com/questions/1359689/how-to-send-http-request-in-java
-  https://stackoverflow.com/questions/2793150/using-java-net-urlconnection-to-fire-and-handle-http-requests
-
-  3. Run first responce and print it damn!
+****************************************************************
+TO DO LIST
+-zaaplikować webHook do odświerzania statusów zadań/sprawdzeń
+-logowanie użytkowników z użyciem GitHub auth?--na później
