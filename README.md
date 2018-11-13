@@ -31,4 +31,5 @@
 TO DO LIST
 -zaaplikować webHook do odświerzania statusów zadań/sprawdzeń
 -logowanie użytkowników z użyciem GitHub auth?--na później
+
 (p) test paragrafu
