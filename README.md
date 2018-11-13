@@ -38,3 +38,13 @@ TO DO LIST
 
 
 →foo→baz→→bim
+
+ jedna spacja
+  dwie spacje
+   trzy spacje
+    cztery zpacje
+zero spacji
+    cztery spacje
+zero spacji
+
+    dwa entery i cztery spacje
