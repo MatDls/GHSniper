@@ -21,7 +21,7 @@ public class StudentTest {
 	public void save() {
     Student student = new Student(1L, "Jack Strong", "jack@Github", null);
     assertTrue(this.studentRepository.findAll().isEmpty());
-		System.out.println("hahah");
+		//You should comment this
 		this.studentRepository.save(student);
     assertTrue(this.studentRepository.findAll().contains(student));
 	}
